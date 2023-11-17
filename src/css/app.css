@@ -89,6 +89,7 @@ h2 {
   position: absolute;
   top: 25px;
   width: 100%;
+  color: #fff;
 }
 .header .header-cont {
   width: 100%;
@@ -214,6 +215,9 @@ h2 {
   }
   .page-description input {
     flex-grow: 1;
+  }
+  .page-description p {
+    margin: 14px 0;
   }
   .header {
     padding: 0 20px;
