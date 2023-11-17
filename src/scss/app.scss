@@ -2,6 +2,61 @@
 @import "general.scss";
 @import "header.scss";
 @import "banner.scss";
-@import "page-pricing.scss"
+@import "page-pricing.scss";
 
+@media (max-width: 415px) {
+    h1 {
+        font-size: 30px;
+        line-height: 45px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    
+    h2 {
+        font-size: 18px;
+        line-height: 27px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    
+    .page-description {
+        padding: 0 20px;
+
+        h1 {
+            margin-top: 50px;
+        }
+
+        h2 {
+            margin-bottom: 16px;
+        }
+
+        input {
+            flex-grow: 1;
+        }
+    }
+    
+    .header {
+        padding: 0 20px;
+
+        .nav {
+            flex-direction: column;
+            padding-right: 150px;
+        }
+
+        .nav-item {
+            margin-bottom: 3px;
+           /*  line-height: 13px; */
+        }
+
+        .search-box {
+            width: 100%;
+        }
+
+        .search-input {
+            width: 100%;
+        }
+    }
+
+
+}
 

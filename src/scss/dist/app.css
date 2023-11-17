@@ -197,12 +197,14 @@ h2 {
     font-weight: bold;
     text-transform: uppercase;
   }
+
   h2 {
     font-size: 18px;
     line-height: 27px;
     font-weight: bold;
     text-transform: uppercase;
   }
+
   .page-description {
     padding: 0 20px;
   }
@@ -215,6 +217,7 @@ h2 {
   .page-description input {
     flex-grow: 1;
   }
+
   .header {
     padding: 0 20px;
   }
@@ -232,4 +235,4 @@ h2 {
   .header .search-input {
     width: 100%;
   }
-}/*# sourceMappingURL=app.css.map */
+}
