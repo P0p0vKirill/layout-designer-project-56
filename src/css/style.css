@@ -3,22 +3,41 @@
     src: url(../fonts/Roboto-Regular.ttf);
 }
 
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+
 body {
-    font-family: Roboto;
+    margin: 0;
+    font-family: Roboto, sans-serif;
     line-height: 1.5;
     color: #cacaca;
     background-color: #08020d;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 header {
  position: absolute;
  top: 25px;
+ box-sizing: border-box;
+ width: 1240px;
+ padding: 0 20px;
+ margin: 0 auto;
+ 
+ 
 }
 
-.header {
+.header-section {
  display: flex;
- flex-wrap: wrap;
- max-width: 1200px;
+ justify-content: space-between;
+ width: 100%;
+}
+
+img {
+    width: 24px;
+    height: 24px;
 }
 
 .logo {

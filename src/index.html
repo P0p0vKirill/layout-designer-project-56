@@ -5,20 +5,51 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/app.css">
   <title>Layout-designer-project-56-PopovKirill</title>
 </head>
 <body>
-<header>
-  <div class="flex header">
-<div class="logo header-item">
-  <img src="images/logo.svg" alt="logo">
+<header class="header">
+  <section class="container header-cont">
+   
+<div class="logo">
+  <img src="images/logo.svg" alt="logo" class="mr-16">
+  <p>MUSIC BOX</p>
 </div>
-<div class="header-item"><p>MUSIC BOX</p></div>
-<div class="header-item"><p>ГЛАВНАЯ</p></div>
-<div class="header-item"></div>
-  </div>
+
+<ul class="nav">
+<li><a href="#" class="nav-item">Главная</a></li>
+<li><a href="#" class="nav-item">Каталог</a></li>
+<li><a href="#" class="nav-item">Исполнители</a></li>
+<li><a href="#" class="nav-item">Контакты</a></li>
+</ul>
+
+<div class="search-box">
+  <label for="search"></label>
+  <input type="text" class="search-input" id="search" placeholder="Поиск...">
+</div>
+
+</section>
   </header>
+  <section id="page-description" class="bg-ban">
+    <div class="banner container">
+<h1>Онлайн музыка где угодно</h1>
+<h2>без ограничений</h2>
+<p>Получите доступ всего за несколько шагов. Заполните форму ниже и откройте мир музыки</p>
+<form action="" class="form">
+  <input type="text" placeholder="Имя">
+  <input type="email" placeholder="Email">
+  <button class="btn" type="submit">Получить доступ</button>
+</form>
+    </div>
+
+  </section>
+  <section id="page-pricing" class="container">
+    <h2>формы подписки</h2>
+
+  </section>
+
+
 
 
 

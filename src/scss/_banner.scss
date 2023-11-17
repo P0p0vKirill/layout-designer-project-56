@@ -1,0 +1,58 @@
+#page-description {
+    background-image: url(/images/banner.png);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  box-sizing: border-box;
+
+  .banner {
+    padding: 200px 0;
+    margin: 0 auto;
+    text-align: center;
+    color: $color-white;
+  }  
+
+  h2 {
+    margin-bottom: 31px;
+  }
+
+.form  {
+ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 570px;
+    margin: 0 auto;
+    color: $color-white;
+
+}
+
+input {
+   min-width: 270px;
+    min-height: 50px;
+    padding-left: 20px;
+    margin-bottom: 1.5rem;
+    border: 2px solid $color-dark-gray;
+    border-radius: 3px;
+    background-color: transparent;
+    color: $color-white;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.btn {
+    width: 100%;
+    padding: 20px 30px 20px 30px;
+    border-radius: 5px;
+    background:  #34C176;
+    color: $color-white;
+    border: none;
+    font-size: 13px;
+}
+
+
+
+
+
+
+}
