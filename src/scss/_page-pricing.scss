@@ -1,4 +1,102 @@
 .page-pricing {
     text-align: center;
+    padding-top: 100px;
+
+    .pricing-list {
+        display: flex;
+        justify-content: space-between;
+       
+
+
+
+    }
+
+    .pricing-item {
+        flex-grow: 1; 
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        border-radius: 1rem;
+        text-align: center;
+        max-width: 368px;
+
+
+
+    }
+
     
+
+    h2 {
+        padding-bottom: 48px;
+
+    }
+
+    h3 {
+        font-size: 24px;
+        line-height: 36px;
+        text-transform: uppercase;
+        margin: 24px 0 200px 0;
+        color: $color-white;
+    }
+
+    .pricing-footer {
+        font-size: 13px;
+        line-height: 19px;
+        color: $color-white;
+        margin-bottom: 64px;
+    }
+
+    .bg-free-1 {
+        background-image: url(../images/subscribe_1.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .bg-free-2 {
+        background-image: url(../images/subscribe_2.png);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .bg-free-3 {
+        background-image: url(../images/subscribe_3.png);
+        background-position: center;
+        background-size: cover;
+    }
+
+    a {
+        display: block;
+        box-sizing: border-box;
+        margin-bottom: 64px;
+        padding: 20px 30px;
+        color: $color-white;
+        text-decoration: none;
+        text-transform: uppercase;
+        border: 1px solid #fff;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .pricing-value {
+        font-size: 64px;
+        line-height: 64px;
+        margin: 0 0 40px 0;
+        color: $color-white;
+
+        span {
+            padding-left: 16px;
+            color: #fff;
+            font-size: 32px;
+            line-height: 48px;
+            vertical-align: top;
+        
+        }
+    }
+
+    .footer {
+        margin: 42px 0 0 0;
+
+    }
+
 }
+

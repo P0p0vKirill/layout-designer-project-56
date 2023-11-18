@@ -58,9 +58,17 @@
   .mr-16 {
     margin-right: 16px;
   }
+
+  .mr-50 {
+    margin-right: 50px;
+  }
   
   .mr-24 {
     margin-right: 24px;
+  }
+
+  .mb-100 {
+    margin-bottom: 100px;
   }
   
   .btn {
@@ -75,16 +83,6 @@
     border: 1px solid #fff;
     border-radius: 5px;
     cursor: pointer;
-  }
-  
-  .heading {
-    margin-bottom: 48px;
-    color: $color-white;
-    font-size: 38px;
-    font-family: Roboto-Bold, sans-serif;
-    line-height: 57px;
-    text-align: center;
-    text-transform: uppercase;
   }
   
   @mixin heading {

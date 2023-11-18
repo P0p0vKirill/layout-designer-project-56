@@ -57,8 +57,16 @@ h2 {
   margin-right: 16px;
 }
 
+.mr-50 {
+  margin-right: 50px;
+}
+
 .mr-24 {
   margin-right: 24px;
+}
+
+.mb-100 {
+  margin-bottom: 100px;
 }
 
 .btn {
@@ -66,16 +74,6 @@ h2 {
   border: 1px solid #fff;
   border-radius: 5px;
   cursor: pointer;
-}
-
-.heading {
-  margin-bottom: 48px;
-  color: #fff;
-  font-size: 38px;
-  font-family: Roboto-Bold, sans-serif;
-  line-height: 57px;
-  text-align: center;
-  text-transform: uppercase;
 }
 
 @media (max-width: 620px) {
@@ -189,6 +187,79 @@ h2 {
 
 .page-pricing {
   text-align: center;
+  padding-top: 100px;
+}
+.page-pricing .pricing-list {
+  display: flex;
+  justify-content: space-between;
+}
+.page-pricing .pricing-item {
+  flex-grow: 1;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  border-radius: 1rem;
+  text-align: center;
+  max-width: 368px;
+}
+.page-pricing h2 {
+  padding-bottom: 48px;
+}
+.page-pricing h3 {
+  font-size: 24px;
+  line-height: 36px;
+  text-transform: uppercase;
+  margin: 24px 0 200px 0;
+  color: #fff;
+}
+.page-pricing .pricing-footer {
+  font-size: 13px;
+  line-height: 19px;
+  color: #fff;
+  margin-bottom: 64px;
+}
+.page-pricing .bg-free-1 {
+  background-image: url(../images/subscribe_1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.page-pricing .bg-free-2 {
+  background-image: url(../images/subscribe_2.png);
+  background-position: center;
+  background-size: cover;
+}
+.page-pricing .bg-free-3 {
+  background-image: url(../images/subscribe_3.png);
+  background-position: center;
+  background-size: cover;
+}
+.page-pricing a {
+  display: block;
+  box-sizing: border-box;
+  margin-bottom: 64px;
+  padding: 20px 30px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.page-pricing .pricing-value {
+  font-size: 64px;
+  line-height: 64px;
+  margin: 0 0 40px 0;
+  color: #fff;
+}
+.page-pricing .pricing-value span {
+  padding-left: 16px;
+  color: #fff;
+  font-size: 32px;
+  line-height: 48px;
+  vertical-align: top;
+}
+.page-pricing .footer {
+  margin: 42px 0 0 0;
 }
 
 @media (max-width: 415px) {

@@ -1,0 +1,23 @@
+.page-pricing {
+  text-align: center;
+  padding-top: 100px;
+}
+.page-pricing .pricing-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem;
+  border-radius: 1rem;
+}
+.page-pricing .pricing-item {
+  flex-grow: 1;
+}
+.page-pricing h2 {
+  padding-bottom: 48px;
+}
+.page-pricing h3 {
+  padding: 200px;
+}
+.page-pricing .pricing-footer {
+  font-size: 13px;
+  line-height: 19px;
+}
