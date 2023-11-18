@@ -113,9 +113,15 @@
 
     .pricing-item {
         max-width: 100%;
+
     }
-    }
+    
     .bg-free-1,.bg-free-2 {
         margin-bottom: 50px;
     }
+
+    .bg-free-1,.bg-free-2,.bg-free-3 {
+        background-position: 50% 5%;
+    }
+}
 }

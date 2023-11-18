@@ -19,7 +19,7 @@ body {
   overflow-x: hidden;
   color: #cacaca;
   font-size: 16px;
-  font-family: roboto, sans-serif;
+  font-family: Roboto, sans-serif;
   line-height: 1.5;
   background-color: #08020d;
 }
@@ -278,8 +278,11 @@ h2 {
   .page-pricing .pricing-item {
     max-width: 100%;
   }
-  .bg-free-1, .bg-free-2 {
+  .page-pricing .bg-free-1, .page-pricing .bg-free-2 {
     margin-bottom: 50px;
+  }
+  .page-pricing .bg-free-1, .page-pricing .bg-free-2, .page-pricing .bg-free-3 {
+    background-position: 50% 5%;
   }
 }
 @media (max-width: 415px) {
