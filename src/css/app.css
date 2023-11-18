@@ -81,13 +81,13 @@ h2 {
   cursor: pointer;
 }
 
-@media (max-width: 620px) {
+/* @media (max-width: 620px) {
   .heading {
     margin-bottom: 48px !important;
     font-size: 18px !important;
     line-height: 27px !important;
   }
-}
+} */
 .header {
   position: absolute;
   top: 25px;
@@ -197,6 +197,7 @@ h2 {
 .page-pricing .pricing-list {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .page-pricing .pricing-item {
   flex-grow: 1;
@@ -268,6 +269,19 @@ h2 {
   margin: 42px 0 0 0;
 }
 
+@media (max-width: 415px) {
+  .page-pricing h3 {
+    margin: 16px 0 200px 0;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .page-pricing .pricing-item {
+    max-width: 100%;
+  }
+  .bg-free-1, .bg-free-2 {
+    margin-bottom: 50px;
+  }
+}
 @media (max-width: 415px) {
   h1 {
     font-size: 30px;
