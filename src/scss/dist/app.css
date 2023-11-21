@@ -19,7 +19,7 @@ body {
   overflow-x: hidden;
   color: #cacaca;
   font-size: 16px;
-  font-family: roboto, sans-serif;
+  font-family: Roboto, sans-serif;
   line-height: 1.5;
   background-color: #08020d;
 }
@@ -269,6 +269,22 @@ h2 {
   margin: 42px 0 0 0;
 }
 
+@media (max-width: 415px) {
+  .page-pricing h3 {
+    margin: 16px 0 200px 0;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .page-pricing .pricing-item {
+    max-width: 100%;
+  }
+  .page-pricing .bg-free-1, .page-pricing .bg-free-2 {
+    margin-bottom: 50px;
+  }
+  .page-pricing .bg-free-1, .page-pricing .bg-free-2, .page-pricing .bg-free-3 {
+    background-position: 50% 5%;
+  }
+}
 @media (max-width: 415px) {
   h1 {
     font-size: 30px;
